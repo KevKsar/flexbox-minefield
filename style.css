@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+
+body{
+    height: ;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+main{
+    border: 10px inset #e6e6e6;
+    background-color: rgb(197, 197, 197);
+}
+
+#ligne-1 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-2 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-2{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-3 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-3{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-4 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-4{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-5 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-5{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-6 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-6{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-7 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-7{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne-8 div{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ligne-8{
+    display: flex;
+    flex-direction: row;
+}
+
+.bomb{
+    width: 30px;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+div .bloc{
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.2 linear;
+}
+
+div .bloc:hover{
+    opacity: 0;
+}
